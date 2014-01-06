@@ -47,6 +47,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QuickPDF.Core\QuickPDF.Core.csproj">
+      <Project>{9b53078f-ba41-4869-bdb9-87102b841fe2}</Project>
+      <Name>QuickPDF.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

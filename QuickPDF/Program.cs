@@ -16,6 +16,8 @@ namespace QuickPDF.Console
 
             // First is output file.
             var output = args.First();
+            if (!Path.IsPathRooted(output))
+                output = Environment.CurrentDirectory + @"\" + output;
 
             // Rest is image files.
             var files = args.Skip(1);

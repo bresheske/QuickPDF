@@ -7,8 +7,8 @@
     <ProjectGuid>{40B4C4CB-00DE-4402-8B13-3B88C6CD7044}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>QuickPDF</RootNamespace>
-    <AssemblyName>QuickPDF</AssemblyName>
+    <RootNamespace>QuickPDF.Console</RootNamespace>
+    <AssemblyName>QuickPDF.Console</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

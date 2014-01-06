@@ -4,12 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QuickPDF
+namespace QuickPDF.Console
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            // No need for arg parsing, just assuming file names are correct.
+
+
         }
     }
 }

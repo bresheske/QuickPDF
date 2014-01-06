@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickPDF", "QuickPDF\QuickPDF.csproj", "{40B4C4CB-00DE-4402-8B13-3B88C6CD7044}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickPDF.Console", "QuickPDF\QuickPDF.Console.csproj", "{40B4C4CB-00DE-4402-8B13-3B88C6CD7044}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickPDF.Core", "QuickPDF.Core\QuickPDF.Core.csproj", "{9B53078F-BA41-4869-BDB9-87102B841FE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{40B4C4CB-00DE-4402-8B13-3B88C6CD7044}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40B4C4CB-00DE-4402-8B13-3B88C6CD7044}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40B4C4CB-00DE-4402-8B13-3B88C6CD7044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B53078F-BA41-4869-BDB9-87102B841FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B53078F-BA41-4869-BDB9-87102B841FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B53078F-BA41-4869-BDB9-87102B841FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B53078F-BA41-4869-BDB9-87102B841FE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

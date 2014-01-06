@@ -13,6 +13,8 @@ namespace QuickPDF.Console
         public static void Main(string[] args)
         {
             // TODO: IOC probably more appropriate here.
+            // Special thanks to PDFSharp!
+            // http://www.nuget.org/packages/PDFsharp/
             var pdf = new DefaultPDFCreator();
 
             // First is output file.
